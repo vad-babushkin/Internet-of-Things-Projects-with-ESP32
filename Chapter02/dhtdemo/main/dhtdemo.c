@@ -5,7 +5,8 @@
 #include "sdkconfig.h"
 
 #include <dht.h>
-static const dht_sensor_type_t sensor_type = DHT_TYPE_DHT22;
+//static const dht_sensor_type_t sensor_type = DHT_TYPE_DHT22;
+static const dht_sensor_type_t sensor_type = DHT_TYPE_DHT11;
 static const gpio_num_t dht_gpio = 26;
 
 

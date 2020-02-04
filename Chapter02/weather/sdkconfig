@@ -231,6 +231,17 @@ CONFIG_EFUSE_MAX_BLK_LEN=192
 # end of eFuse Bit Manager
 
 #
+# Rotary encoders
+#
+CONFIG_RE_MAX=1
+CONFIG_RE_INTERVAL_US=1000
+CONFIG_RE_BTN_DEAD_TIME_US=10000
+CONFIG_RE_BTN_PRESSED_LEVEL_0=y
+# CONFIG_RE_BTN_PRESSED_LEVEL_1 is not set
+CONFIG_RE_BTN_LONG_PRESS_TIME_US=500000
+# end of Rotary encoders
+
+#
 # ESP-TLS
 #
 CONFIG_ESP_TLS_USING_MBEDTLS=y
@@ -565,6 +576,18 @@ CONFIG_HEAP_TRACING_OFF=y
 # end of Heap memory debugging
 
 #
+# HMC5883L
+#
+CONFIG_HMC5883L_MEAS_TIMEOUT=6000
+# end of HMC5883L
+
+#
+# I2C
+#
+CONFIG_I2CDEV_TIMEOUT=1000
+# end of I2C
+
+#
 # libsodium
 #
 # end of libsodium
@@ -771,6 +794,13 @@ CONFIG_MBEDTLS_ECP_NIST_OPTIM=y
 # end of mbedTLS
 
 #
+# MCP23x17
+#
+CONFIG_MCP23X17_IFACE_I2C=y
+# CONFIG_MCP23X17_IFACE_SPI is not set
+# end of MCP23x17
+
+#
 # mDNS
 #
 CONFIG_MDNS_MAX_SERVICES=10
@@ -811,6 +841,12 @@ CONFIG_NEWLIB_STDIN_LINE_ENDING_CR=y
 # NVS
 #
 # end of NVS
+
+#
+# OneWire
+#
+CONFIG_ONEWIRE_CRC8_TABLE=y
+# end of OneWire
 
 #
 # OpenSSL

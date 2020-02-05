@@ -1,7 +1,6 @@
 set(COMPONENT_SRCS "awsiot.c")
 set(COMPONENT_ADD_INCLUDEDIRS ".")
 
-
 register_component()
 
 if(CONFIG_EXAMPLE_EMBEDDED_CERTS)

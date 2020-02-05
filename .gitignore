@@ -2,3 +2,4 @@
 /cmake-build-debug/
 **/build/
 **/cmake-build-debug-xtensa/
+**/cmake-build-debug-xtensa_for_idf3/

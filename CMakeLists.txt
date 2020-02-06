@@ -3,7 +3,7 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 set(PROJECT_NAME iot_esp32)
 project(${PROJECT_NAME})
 
-add_subdirectory(Chapter01/blinking/)
+#add_subdirectory(Chapter01/blinking/)
 
 #add_subdirectory(Chapter02/dhtdemo)
 #add_subdirectory(Chapter02/lcddemo)
